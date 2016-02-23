@@ -1,0 +1,480 @@
+body{
+	font-family: 'VT323', sans-serif ;
+	display: inline-block;
+	color: blue;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border: 2px;
+}
+
+.document{
+	background-image: '<img src= "nasa.jpg>'
+}
+
+}
+
+.first {
+	font-family: 'VT323', sans-serif ;
+	font-size: 11px;
+	display: inline-block;
+}
+
+.second {
+	font-family: 'VT323', sans-serif ;
+	font-size: 60px;
+	display: inline-block;
+}
+
+.third {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.fourth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.fifth {
+	font-size: 40px;
+	display: inline-block;
+}
+
+.sixth {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.seventh {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.eighth {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.ninth {
+	font-size: 10px;
+	display: inline-block;
+}
+
+.tenth {
+	font-size: 40px;
+	display: inline-block;
+}
+
+.eleventh {
+	font-size: 60px;
+	display: inline-block;
+}
+
+.twelveth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.thirteenth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.fourteenth {
+	font-size: 28px;
+	display: inline-block;
+}
+
+.fifteenth {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.sixteenth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.seventeenth {
+	font-size: 40px;
+	display: inline-block;
+}
+
+.eighteenth {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.nineteenth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.twentieth {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.twentyfirst {
+	font-size: 28px;
+	display: inline-block;
+}
+
+.twentysecond {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.twentythird{
+	font-size: 14px;
+	display: inline-block;
+}
+
+.twentyfourth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.twentyfifth {
+	font-size: 40px;
+	display: inline-block;
+}
+
+.twentysixth {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.twentyseventh {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.twentyeighth {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.twentyninth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.thirtieth {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.thirtyfirst {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.thirtysecond {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.thirtythird {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.thirtyfourth {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.thirtyfifth {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.thirtysixth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.thirtyseventh {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.thirtyeighth {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.thirtyninth {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.fortieth {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fortyfirst {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.fortysecond {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fortythird {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.fortyfourth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.fortyfifth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.fortysixth {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fortyseventh {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.fortyeighth {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fortyninth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.fiftieth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.fiftyfirst {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fiftysecond {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.fiftythird {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.fiftyfourth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.fiftyfifth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.fiftysixth {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.fiftyseventh {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.fiftyeighth {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.fiftyninth {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.sixtieth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.sixtyfirst {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.sixtysecond {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.sixtythird {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.sixtyfourth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.sixtyfifth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.sixtysixth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.sixtyseventh {
+	font-size: 28px;
+	display: inline-block;
+}
+
+.sixtyeighth {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.sixtyninth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.seventieth {
+	font-size: 28px;
+	display: inline-block;
+}
+
+.seventyfirst {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.seventysecond {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.seventythird {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.seventyfourth {
+	font-size: 21px;
+	display: inline-block;
+}
+
+.seventyfifth {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.seventysixth {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.seventyseventh {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.seventyeighth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.seventyninth {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.eighty {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.eightyfirst {
+	font-size: 45px;
+	display: inline-block;
+}
+
+.eightysecond {
+	font-size: 9px;
+	display: inline-block;
+}
+
+.eightythird {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.eightyfourth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.eightyfifth {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.eightysixth {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.eightyseventh {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.eightyeighth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.eightyninth {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.ninety {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.ninetyfirst {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.ninetysecond {
+	font-size: 11px;
+	display: inline-block;
+}
+
+

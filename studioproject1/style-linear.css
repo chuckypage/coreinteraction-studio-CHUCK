@@ -1,0 +1,22 @@
+body {
+	-webkit-filter: blur(12px);
+  	transition: -webkit-filter .2s;
+}
+
+.not-blurred {
+	-webkit-filter: blur(2px);  
+}
+
+.first {
+	font-size: 100px;
+	font-family: 'Play', sans-serif;
+	line-height: 80px;
+	font-weight: bold;
+	}
+
+.second {
+	font-size: 90px;
+	font-family: 'Play', sans-serif;
+	line-height: 85px;
+
+}
