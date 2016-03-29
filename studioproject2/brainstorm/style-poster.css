@@ -1,0 +1,136 @@
+body {
+	cursor: none;
+
+}
+ 
+#cursor {
+	width: 270px;
+  	height: 240px;
+  	position: absolute;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_triangle.svg/270px-Blue_triangle.svg.png);
+}
+
+.flash {
+	/*border: 1px solid black;*/
+	position: relative; 
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	font-size: 150px;
+	text-decoration: underline;
+
+}
+
+.flash:hover {
+	-webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: .5s;
+  	animation-iteration-count: infinite;
+  }
+
+.second {
+	position: relative;
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	font-size: 70px;
+	text-decoration: underline;
+
+
+}
+
+.second:hover {
+	-webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: .5s;
+  	animation-iteration-count: infinite;
+  }
+
+.added {
+	z-index: 10;
+	position: relative;
+	text-align: justify; 
+	/*border: 1px black solid ;*/
+	width: 600px;
+	height: 200px;
+	position: relative;
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	font-size: 20px;
+	display: none; 
+	float: right;
+}
+
+.clickadded {
+	font-size: 10px;
+
+}
+
+.secondadd {
+	z-index: 20;
+	border: 1px black solid;
+	position: relative;
+	text-align: justify;
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	padding: none;
+	font-size: 20px;
+	display: none;
+	width: 500px;
+	height: 400px;
+	}
+
+.third {
+	position: relative;
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	font-size: 100px;
+	text-decoration: underline;
+	-webkit-transform: rotate(90deg);
+	margin-left: 1000px;
+	margin-right: -290px;
+	margin-top: 55px;
+
+}
+
+.third:hover {
+	-webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: .5s;
+  	animation-iteration-count: infinite;
+}
+
+.thirdadd {
+	z-index: 50px;
+	position: relative;
+	text-align: justify;
+	width: 400px;
+	height: 600px;
+	/*border: black 1px solid;*/
+	font-family: didact-gothic, sans-serif;
+	color: blue;
+	font-size: 20px;
+	display: none; 
+	margin-left: 780px;
+	margin-top: -300px;
+	-webkit-transform: rotate(90deg);
+}
+
+
+
+-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+
+

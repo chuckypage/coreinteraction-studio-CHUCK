@@ -1,0 +1,113 @@
+body {
+	cursor: none;
+}
+
+.one {
+	resize: both;
+	cursor: move;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 520px;
+	border: blue 2px solid;
+	width: 350px;
+	height: 400px;
+	overflow: auto;
+	font-size: 250px;
+	position: relative; 
+	font-family: terminal-grotesque;
+	color: blue;
+	line-height: 220px;
+
+}
+.iframe {
+	resize: both;
+	cursor: move;
+	position: relative;
+	margin-top: 200px;
+	margin-left: 520px;
+	border: blue 2px solid;
+	width: 350px;
+	height: 400px;
+	z-index: -10;
+	overflow: auto;
+
+
+}
+.iframe {
+	resize: both;
+	cursor: move;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 520px;
+	border: blue 2px solid;
+	width: 350px;
+	height: 400px;
+	overflow: auto;
+	
+
+}
+
+
+
+.cursor {
+	width: 270px;
+  	height: 240px;
+  	position: absolute;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-image: url(http://vignette4.wikia.nocookie.net/inciclopedia/images/a/a5/X.png);
+    -webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: 1.5s;
+  	animation-iteration-count: infinite;
+
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0433ff;
+  border: 0px solid #000000;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0096ff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0433ff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+
+
+ -webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+}

@@ -1,0 +1,22 @@
+body {
+	cursor: none;
+}
+
+.hidden {
+	border: black 2px solid;
+	width: 99vw;
+	height: 200vh;
+	-webkit-filter: blur(12px);
+  	transition: -webkit-filter .1s;
+
+}
+ 
+#cursor {
+	cursor: none;
+	width: 270px;
+  	height: 240px;
+  	position: absolute;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_triangle.svg/270px-Blue_triangle.svg.png);
+}
