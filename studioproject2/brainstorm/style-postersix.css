@@ -27,7 +27,7 @@ body {
   position: relative; 
   font-family: youngserif;
   color: black;
-  line-height: 125px;
+  line-height: 130px;
   cursor: move;
   position: absolute;
   margin-top: 200px;
@@ -63,7 +63,7 @@ body {
   font-size: 90px;
   font-family: youngserif;
   color: black;
-  line-height: 80px;
+  line-height: 86px;
   cursor: move;
   position: absolute;
   margin-top: 200px;
