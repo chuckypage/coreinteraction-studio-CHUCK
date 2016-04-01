@@ -1,0 +1,322 @@
+body {
+  cursor: none;
+}
+
+.one {
+  text-align: justify;
+  font-size: 250px;
+  position: relative; 
+  font-family: libre;
+  color: blue;
+  line-height: 100%; 
+  cursor: move;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 720px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  
+}
+
+.one:hover {
+  background-color: white;
+  z-index: 100;
+
+}
+
+.two {
+  text-align: justify;
+  position: absolute;
+  font-size: 150px;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: relative; 
+  font-family: libre;
+  color: black;
+  line-height: 100%;
+  cursor: move;
+  position: absolute;
+  margin-top: 380px;
+  margin-right: 520px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  
+}
+
+.two:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.three {
+  text-align: justify;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 120px;
+  font-family: libre;
+  color: blue;
+  line-height: 100%;
+  cursor: move;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 500px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  
+}
+
+.three:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.four {
+  text-align: justify;
+  position: relative;
+  font-size: 90px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: libre;
+  color: black;
+  line-height: 100%;
+  cursor: move;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 400px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+}
+
+.four:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.five {
+  text-align: justify;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 70px; 
+  font-family: libre;
+  color: blue;
+  line-height: 100%;
+  cursor: move;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 1000px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+}
+
+.five:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.six {
+  text-align: justify;
+  position: absolute;
+  font-size: 50%;
+  font-family: libre;
+  color: black;
+  cursor: move;
+  line-height: 120%;
+  
+}
+
+
+.seven {
+  text-align: justify;
+  position: absolute;
+  font-size: 50%;
+  font-family: libre;
+  color: blue;
+  cursor: move;
+  line-height: 100%;
+  
+}
+
+.titleone {
+  position: absolute;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  position: relative; 
+  font-family: libre;
+  color: blue;
+  cursor: move;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 300px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto; 
+
+}
+
+.titleone:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: relative; 
+  font-family: libre;
+  color: black;
+  cursor: move;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 900px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+
+}
+
+.title:hover {
+  background-color: white;
+  z-index: 100;
+}
+
+.nine {
+  cursor: move;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 100px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  background-image: url(imaged.png);
+  
+}
+
+.nine:hover {
+  overflow: scroll;
+  background-color: white;
+  z-index: 100;
+  
+}
+
+.ten {
+  cursor: move;
+  position: absolute;
+  margin-top: 750px;
+  margin-left: 220px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  background-image: url(imagec.png);
+  
+}
+
+.ten:hover {
+  overflow: scroll;
+  background-color: white; 
+  z-index: 100;
+}
+
+.eleven {
+  cursor: move;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 920px;
+  border: blue 2px solid;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+  background-image: url(imageb.png);
+}
+
+.eleven:hover {
+  overflow: scroll;
+  z-index: 100;
+  background-color: white;
+  
+}
+
+.cursor {
+	   width: 270px;
+  	height: 240px;
+  	position: absolute;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-image: url(http://vignette4.wikia.nocookie.net/inciclopedia/images/a/a5/X.png);
+    -webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: 1.5s;
+  	animation-iteration-count: infinite;
+
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0433ff;
+  border: 0px solid #000000;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0096ff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0433ff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+
+
+ -webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+}
