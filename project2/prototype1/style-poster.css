@@ -9,7 +9,7 @@ body {
   	position: absolute;
     background-size: 100px 100px;
     background-repeat: no-repeat;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_triangle.svg/270px-Blue_triangle.svg.png);
+    background-image: url(hand.png);
 }
 
 .flash {

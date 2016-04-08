@@ -1,0 +1,201 @@
+body {
+	background-color: aquamarine;
+	cursor: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#cursor {
+	width: 194px;
+  	height: 259px;
+  	position: absolute;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-image: url(hand.png);
+    z-index: 10;
+}
+
+.cartelle {
+	margin-left: 35%;
+	margin-top: 13%;
+	position: absolute;
+	border: pink 1px solid;
+	width: 20%;
+	height: 25%;
+	cursor: none;
+	z-index: 4;
+}
+ 
+.cartelle:hover {
+	-webkit-filter: saturate(1000%);
+	z-index: 9;
+
+}
+
+.craig {
+	margin-top: 35%;
+	margin-left: 43%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 30%;
+	height: 30%;
+	cursor: none;
+}
+
+.craig:hover {
+	-webkit-filter: saturate(14000%);
+	z-index: 9;
+
+}
+
+.toaster {
+	margin-top: 23%;
+	margin-left: 20%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 32%;
+	height: 34%;
+	cursor: none;
+}
+
+.toaster:hover {
+	-webkit-filter: saturate(14000%);
+	z-index: 9;
+
+}
+
+.giraffe {
+	margin-top: 10%;
+	margin-left: 10%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 20%;
+	height: 30%;
+	cursor: none;
+}
+
+.giraffe:hover {
+	-webkit-filter: saturate(14000%);
+	z-index: 9;
+
+}
+
+.steven {
+	margin-top: 40%;
+	margin-left: 30%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 25%;
+	height: 40%;
+	cursor: none;
+}
+
+.steven:hover {
+	-webkit-filter: desaturate(20000%);
+	z-index: 9;
+}
+
+.johnny{
+	margin-top: 50%;
+	margin-left: 14%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 20%;
+	height: 36%;
+	cursor: none;
+
+}
+
+.johnny:hover {
+	-webkit-filter: saturate(500%);
+	z-index: 9;
+}
+
+.hellomonday {
+	margin-top: 4%;
+	margin-left: 65%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 20%;
+	height: 25%;
+	cursor: none;
+}
+
+.hellomonday:hover {
+	-webkit-filter: saturate(5000%);
+	z-index: 9;
+}
+
+.legwork {
+	margin-top: 16%;
+	margin-left: 60%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 15%;
+	height: 20%;
+	cursor: none;
+}
+
+.legwork:hover {
+	-webkit-filter: saturate(5000%);
+	z-index: 9;
+}
+
+.raw {
+	margin-top: 50%;
+	margin-left: 64%;
+	position: absolute;
+	border:  pink 1px solid;
+	width: 25%;
+	height: 34%;
+	cursor: none;
+}
+
+.raw:hover {
+	-webkit-filter: saturate(5000%);
+	z-index: 9;
+}
+
+.cartellepage {
+	margin-left: 18%;
+	margin-top: 25%;
+	position: absolute;
+	font-family: golden;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+	font-size: 900%;
+	cursor: none;
+	z-index: 9;
+	-webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: 1.5s;
+  	animation-iteration-count: infinite;
+}
+
+
+/*.cartellepage:hover{
+	color: pink;
+	-webkit-animation-name: flash;
+  	animation-name: flash;
+  	animation-duration: 1.5s;
+  	animation-iteration-count: infinite;
+}
+*/
+
+ -webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+}
