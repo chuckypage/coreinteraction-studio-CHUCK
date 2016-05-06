@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(".console").draggable();
-    $(".console-img").draggable();
+    
   });
 
 $(document).ready(
