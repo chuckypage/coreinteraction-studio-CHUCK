@@ -1,5 +1,5 @@
 var currentIndex = 1;
-var bgClasses = ['fire', 'morning' 'swoosh' 'birds' 'beach' 'edge'];
+var bgClasses = ['.fire', '.morning' '.swoosh' '.birds' '.beach' '.edge'];
 
 function prevBg() {
 	currentIndex -= 1;
@@ -42,4 +42,14 @@ function setfigure() {
 	$('.' + figureClasses[currentIndex]).show();
 }
 
-var audioClasses = [ 'selfhelpyo', 'groove', 'beautiful', 'elevator'];
+var audioClasses = [ 'selfhelpyo.m4a', 'groove', 'beautiful', 'elevator'];
+
+
+for (var i =0; i < audioClasses.length, ++i) {
+	var currentSong = audioClasses(1);
+	var audio = new Audio();
+	audio.src= currentSong
+	songs.push(array)
+}
+
+audio.play 

@@ -1,5 +1,11 @@
 body {
 	margin: -1px;
+	overflow: hidden;
+}
+
+body, html {
+	height: 100%;
+	position: relative;
 }
 
 .console {
@@ -164,7 +170,7 @@ body {
 
 .console-row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	border: 1px yellow solid;
 	background-color: black;
 
@@ -253,8 +259,7 @@ body {
 }
 
 .console-forward:hover {
-	width: 19.8%;
-	height: 19.8%;
+	transform: scale(.8,.8);
 	background-image: url(forward.png);
 }
 
@@ -272,8 +277,7 @@ body {
 }
 
 .console-back:hover {
-	width: 19.8%;
-	height: 19.8%;
+	transform: scale(.8,.8);
 	background-image: url(back.png);
 
 }
