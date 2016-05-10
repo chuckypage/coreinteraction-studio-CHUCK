@@ -1,55 +1,188 @@
-var currentIndex = 1;
-var bgClasses = ['.fire', '.morning' '.swoosh' '.birds' '.beach' '.edge'];
+$(function() {
+	$(document).ready(function() {
+    $(".console").resizable().draggable({ containment: "body"});
+    
+  });
+
+var currentBackground = 1;
+var bgClasses = ['fire', 'morning', 'swoosh', 'birds', 'beach', 'edge'];
 
 function prevBg() {
-	currentIndex -= 1;
-	if (currentIndex < 0) currentIndex = bgClasses.length -1;
+	currentBackground -= 1;
+	if (currentBackground < 0) currentBackground = bgClasses.length -1;
 	setBg();
 }
 
 function nextBg() {
-	currentIndex += 1;
-	if (currentIndex >= bgClasses.length) currentIndex = 0;
+	currentBackground += 1;
+	if (currentBackground >= bgClasses.length) currentBackground = 0;
 	setBg();
-
 }
 
 function setBg() {
-	$('.all-background-selector').hide();
-	$('.' + bgClasses[currentIndex]).show();
+	$('.bg').hide();
+	$('.' + bgClasses[currentBackground]).show();
+}
+
+
+var currentFigure = 1;
+var figureClasses = [ 'console-figure-23', 'console-figure-22', 'console-figure-21', 'console-figure-20', 'console-figure-19', 
+'console-figure-19', 'console-figure-18', 'console-figure-17', 'console-figure-16', 'console-figure-15', 'console-figure-14', 'console-figure-13',
+'console-figure-12', 'console-figure-11', 'console-figure-10', 'console-figure-9', 'console-figure-8', 'console-figure-7', 'console-figure-6',
+'console-figure-5', 'console-figure-4', 'console-figure-3', 'console-figure-2', 'console-figure-1' ];
+
+function prevFigure() {
+	currentFigure -=1;
+	if (currentFigure < 0) currentFigure = figureClasses.length -1;
+	setFigure();
+}
+
+function nextFigure() {
+	currentFigure += 1;
+	if (currentFigure >= figureClasses.length) currentFigure = 0;
+	setFigure();
+}
+
+function setFigure() {
+	$('.console-figure').hide();
+	$('.' + figureClasses[currentFigure]).show();
+}
+
+
+
+var currentAudio = 0;
+var audioClasses = [ '.audio-1', '.audio-2', '.audio-3', '.audio-4'];
+
+function prevAudio() {
+	currentAudio -=1;
+	if (audioIndex < 0) currentAudio = audioClasses.length -1;
+	setAudio();
+}
+
+function nextAudio() {
+	currentAudio += 1;
+	if (currentAudio >= audioClasses.length) currentAudio = 0;
+	setAudio();
+}
+
+function setAudio() {
+		$('.audio').pause();
+		$(audioClasses[currentAudio]).play();
+
 
 }
 
-var figureClasses = [ 'figure-23', 'figure-22', 'figure-21', 'figure-20' 'figure-19', 
-'figure-19', 'figure-18', 'figure-17', 'figure-16', 'figure-15', 'figure-14', 'figure-13',
-'figure-12', 'figure-11', 'figure-10', 'figure-9', 'figure-8', 'figure-7', 'figure-6',
-'figure-5', 'figure-4', 'figure-3', 'figure-2', 'figure-1'];
+// for (var i =0; i < audioClasses.length, ++i) {
+// 	var currentSong = audioClasses(1);
+// 	var audio = new Audio();
+// 	audio.src= currentSong
+// 	songs.push(array)
+// }
 
-function prevfigure() {
-	currentIndex -=1;
-	if (currentIndex < 0) currentIndex = figureClasses.length -1;
-	setBg();
-}
+// audio.play();
+// audio.stop();
 
-function nextfigure() {
-	currentIndex += 1;
-	if (currentIndex >= figureClasses.length) currentIndex = 0;
-	setBg();
-}
+// var audioIndex = 0;
 
-function setfigure() {
-	$('.all-figure-selector').hide();
-	$('.' + figureClasses[currentIndex]).show();
-}
-
-var audioClasses = [ 'selfhelpyo.m4a', 'groove', 'beautiful', 'elevator'];
+// function nextSong() {
+// 	songs[audioIndex].stop();
+// 	audioIndex += 1;
+// 	songs[audioIndex].play();
+// }
 
 
-for (var i =0; i < audioClasses.length, ++i) {
-	var currentSong = audioClasses(1);
-	var audio = new Audio();
-	audio.src= currentSong
-	songs.push(array)
-}
 
-audio.play 
+
+Chat.onMessage(function (data) {
+
+	if (data.value == 0) {
+		prevBg();
+	} else if (data.value == 1) {
+		prevBg();
+	} else if (data.value == 2) {
+		nextBg();
+	} else if (data.value == 3) {
+		nextBg();
+	} else if (data.value == 4) {
+		prevFigure();
+	} else if (data.value == 5) {
+		prevFigure();
+	} else if (data.value == 6) {
+		nextFigure();
+	} else if (data.value == 7) {
+		nextFigure();
+	} else if (data.value == 8) {
+		prevAudio();
+	} else if (data.value == 9) {
+		prevAudio();
+	} else if (data.value == 10) {
+		nextAudio();
+	} else if (data.value == 11) {
+		nextAudio();
+	} else if (data.value == 12) {
+		nextAudio();
+	}
+});
+
+
+
+/*
+	var rand = Math.random();
+	if(rand < 0.33) {
+		sendMessage(0);
+	} else if (rand > 0.33 && rand < 0.66) {
+		sendMessage(1)
+	} else if (rand > 0.66) {
+		sendMessage(2);
+	}
+*/
+
+$('.console-back').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 0
+	});
+	
+});
+$('.console-forward').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 2
+	});
+});
+$('.console-minus').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 4
+	});
+});
+$('.console-plus').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 6
+	});
+});
+$('.console-playback').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 8
+	});
+});
+$('.console-playforward').click(function() {
+	Chat.sendMessage({
+	  sender: 'suhhh',
+	  type: 'raw',
+	  value: 10
+	});
+});
+
+
+
+});
+
+

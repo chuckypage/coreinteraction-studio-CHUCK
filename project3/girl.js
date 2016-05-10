@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(".console").draggable();
+    $(".console").draggable().resizable();
     
   });
 
