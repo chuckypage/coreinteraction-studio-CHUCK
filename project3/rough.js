@@ -1,7 +1,7 @@
 $(function() {
 	$(document).ready(function() {
     $(".console").draggable({ containment: "body"});
-    $(".console-img").resizable();
+    // $(".console-img").resizable();
     
   });
 

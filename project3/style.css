@@ -20,7 +20,7 @@ body, html {
 }
 
 .console-img {
-	display: inline-block;
+	/*display: inline-block;*/
 	cursor: move;
 	position: absolute;
 	top: 0;
