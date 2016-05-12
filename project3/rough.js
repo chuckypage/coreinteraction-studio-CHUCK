@@ -1,6 +1,7 @@
 $(function() {
 	$(document).ready(function() {
-    $(".console").resizable().draggable({ containment: "body"});
+    $(".console").draggable({ containment: "body"});
+    $(".console-img").resizable();
     
   });
 
@@ -25,7 +26,7 @@ function setBg() {
 }
 
 
-var currentFigure = 1;
+var currentFigure = 0;
 var figureClasses = [ 'console-figure-23', 'console-figure-22', 'console-figure-21', 'console-figure-20', 'console-figure-19', 
 'console-figure-19', 'console-figure-18', 'console-figure-17', 'console-figure-16', 'console-figure-15', 'console-figure-14', 'console-figure-13',
 'console-figure-12', 'console-figure-11', 'console-figure-10', 'console-figure-9', 'console-figure-8', 'console-figure-7', 'console-figure-6',
@@ -51,44 +52,41 @@ function setFigure() {
 
 
 var currentAudio = 0;
-var audioClasses = [ '.audio-1', '.audio-2', '.audio-3', '.audio-4'];
+var audioClasses = [ 'selfhelpyo.m4a', 'groove.m4a', 'beautiful.m4a', 'elevator.m4a'];
+var songs = []
 
 function prevAudio() {
+	songs[currentAudio].pause();
 	currentAudio -=1;
-	if (audioIndex < 0) currentAudio = audioClasses.length -1;
+	if (currentAudio < 0) currentAudio = audioClasses.length -1;
 	setAudio();
 }
 
 function nextAudio() {
+	songs[currentAudio].pause();
 	currentAudio += 1;
 	if (currentAudio >= audioClasses.length) currentAudio = 0;
 	setAudio();
 }
 
 function setAudio() {
-		$('.audio').pause();
-		$(audioClasses[currentAudio]).play();
+		songs[currentAudio].play();
 
 
 }
 
-// for (var i =0; i < audioClasses.length, ++i) {
-// 	var currentSong = audioClasses(1);
-// 	var audio = new Audio();
-// 	audio.src= currentSong
-// 	songs.push(array)
-// }
+// generating audio elements for all songs
+for (var i =0; i < audioClasses.length; ++i) {
+	var currentSong = audioClasses[i]
+	var audio = new Audio();
+	audio.src= currentSong
+	songs.push(audio)
+}
 
-// audio.play();
-// audio.stop();
+setAudio();
 
-// var audioIndex = 0;
 
-// function nextSong() {
-// 	songs[audioIndex].stop();
-// 	audioIndex += 1;
-// 	songs[audioIndex].play();
-// }
+
 
 
 
