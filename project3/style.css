@@ -304,34 +304,34 @@ body, html {
 .fire {
 	
 	background-image: url(fire.jpg);
-	background-size: 100vw;
+	background-size: 150rem;
 }
 
 .morning {
 	background-image: url(morning.jpg);
-	background-size: 100vw;
+	background-size: 120rem;
 	
 }
 
 .swoosh {
 	background-image: url(swoosh.jpg);
-	background-size: 100vw;
+	background-size: 120rem;
 }
 
 .birds {
 	background-image: url(birds.jpg);
-	background-size: 100vw;
+	background-size: 120rem;
 }
 
 .beach {
 	background-image: url(beach.jpg);
-	background-size: 100vw;
+	background-size: 120rem;
 	background-position: 40%;
 }
 
 .edge {
 	background-image: url(edge.jpg);
-	background-size: 100vw;
+	background-size: 120rem;
 }
 
 
